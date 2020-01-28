@@ -222,8 +222,6 @@
 			<span>Copyright © All Right Reserved by Leandro Keene C. Manalon 2019</span>
 		</div>
 	</footer>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js' type="text/javascript"></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js' type="text/javascript"></script>
 
 </body>
 </html>
