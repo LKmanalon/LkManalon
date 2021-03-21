@@ -135,7 +135,7 @@ section.hero-banner {
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(90vh - 108px)!important;
+    height: calc(90vh - 108px);
 }
 
 .hero-banner-title {
@@ -438,3 +438,252 @@ section.hero-banner {
 .steps:last-child:before, .steps:last-child:after{
 	content: none;
 }
+
+
+@media (max-width: 1200px){
+    .step-title {
+        font-size: 15px;
+    }
+
+    .hero-banner-contents {
+        margin-bottom: 12px;
+    }
+
+    .integration-title {
+        font-size: 16px;
+    }
+
+    .section-pricing-item {
+        padding: 30px 20px;
+    }
+}
+
+@media (min-width: 1024px){
+	.mobile-hamburger, .mobile-tooltip {
+		display: none;
+	}
+}
+
+@media (max-width: 1023px){
+
+    .section-integration-item {
+	    display: block;
+	    width: 100%;
+	    max-width: 400px;
+	    margin: 0 auto;
+	    margin-bottom: 60px;
+	}
+
+    .section-pricing-item {
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .steps {
+	    width: 100%;
+	    border-bottom: 1px solid #fff;
+	}
+	.steps:before, .steps:after {
+		content: none;
+	}
+	.hero-banner-float {
+	    position: relative;
+	    top: initial;
+	    left: inherit;
+	}
+	.hero-banner-logo-snippets {
+	    position: relative;
+	    bottom: initial;
+	    left: inherit;
+	}
+	.hero-banner-title {
+	    margin-bottom: 40px;
+	}
+
+	.hero-banner-logo-snippets {
+	    margin-top: 30px;
+	}
+	.hero-banner-holder {
+	    height: initial ;
+	}
+
+	.hero-banner-holder {
+	    padding: 50px 30px;
+	    text-align: center;
+	    position: relative;
+	}
+
+	.hero-banner-holder:before {
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    background-color: #ffffffd6;
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.hero-banner-float {
+	    margin: 0 auto;
+	}
+	.registration-form {
+		background-color: #ffffffed;
+	}
+	.forgot-password a {
+		color: #212338;
+	}
+
+    .mobile-tooltip {
+        position: absolute;
+        left: 15px;
+        display: block;
+    }
+
+	.navigation {
+	    display: none;
+	}
+
+	header {
+	    position: fixed;
+	    height: 60px;
+	    background-color: #fff;
+	    width: 100%;
+	    z-index: 99;
+	}
+
+	section.hero-banner {
+	    padding-top: 50px;
+	}
+
+	.header-logo {
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	.mobile-hamburger span {
+	    font-weight: 700;
+	}
+	.mobile-hamburger {
+	    position: absolute;
+	    right: 15px;
+        display: block;
+	}
+
+	.navigation {
+		display: block;
+	    position: fixed;
+	    top: 60px;
+	    left: 0;
+	    width: 100%;
+        height: 100vh;
+	    transition: 0.5s ease-in-out;
+	    transform: translateX(-100%);
+	}
+
+	nav ul {
+	    background-color: #fff;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    text-align: left;
+	}
+
+	.navigation li {
+		margin-right: 0;
+        width: 100%;
+        text-align: left;
+        padding: 10px 15px; 
+	}
+
+	.navigation.show {
+	    transform: translateX(0);
+	}
+
+    .navigation {
+        padding: 0;
+    }
+
+    .navigation ul {
+        padding: 20px 0;
+    }
+
+    .header-nap {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        transition: 0.5s ease-in-out;
+        background-color: #fff;
+        text-align: left;
+        padding: 20px 15px;
+        height: 100vh;
+        transition: 0.5s ease-in-out;
+        transform: translateX(-100%);
+    }
+
+    .header-nap.show {
+         transform: translateX(0);
+    }
+
+    .header-nap > div {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .top-header > div {
+        display: block;
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width: 768px){
+	.form-cols > div {
+	    width: 100%;
+	    margin-right: 0;
+	}
+
+	.hero-banner-title {
+		font-size: 30px;
+	}
+	.registration-form-title {
+		font-size: 16px;
+	}
+	.registration-form {
+	    padding: 40px 20px;
+	}
+	.hero-banner-holder {
+	    padding: 50px 15px;
+	}
+
+	.hero-banner-title span, .section-title span {
+	    display: block;
+	    text-align: center;
+	    padding-left: 0;
+	}
+
+	.form-submit-field {
+	    margin-right: 0;
+	}
+
+	.banner-badges-content {
+		font-size: 20px;
+	}
+    .pricing-information > div {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+}
+
