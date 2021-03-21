@@ -1,32 +1,251 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Leandro Keene C. Manalon</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Auto Guro - Landing Pages</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/custom.js" type="text/javascript"></script>
 </head>
 <body>
-	<header>
-		<nav></nav>
-	</header>
 
-	<section id="main-section" class="bg-style" style="background-image: url('emma-matthews-558684-unsplash.webp');">
-		<div class="main-container">
-			<div class="main-content">
-				<div class="main-title">Fullstack Web Developer</div>
-				<div class="main-description">Hello I'm Leandro Keene C. Manalon just call me LK. I've been working for almost 2 years in Website Development Companies as a fulltime employee. Currently I'm working as a Wordpress Developer @ Surefire Local PH. </div>
-				<div class="main-buttons">
-					<a href="tel:09971731458" class="phone">I need a Website &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-					<a href="mailto:manalonleandrokeenec@gmail.com">I'm Looking to hire &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+<header>
+	<div class="top-header">
+		<div class="header-logo">
+			<a href=""><img src="assets/autoguru.png" alt="Auto Guro" title="Auto Guro"></a>
+		</div>
+		<div class="header-nap">
+			<div class="header-help"><a href="">Help</a></div>
+			<div class="header-phone"><a href="tel:1300655661"><i class="fas fa-phone-alt"></i>  1300 655 661</a></div>
+			<div class="header-login btn-style"><a href="#">Login</a></div>
+			<div class="header-signup btn-style"><a href="#">Sign Up</a></div>
+		</div>
+	</div>
+	<div class="navigation">
+		<nav>
+			<ul>
+				<li><a href="#">Car Servicing</a></li>
+				<li><a href="#">Repairs</a></li>
+				<li><a href="#">Inspections</a></li>
+				<li><a href="#">Mechanics</a></li>
+				<li><a href="#">Mobile Mechanics</a></li>
+				<li><a href="#">Windscreens</a></li>
+				<li><a href="#">Car Advice</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section class="hero-banner">
+	<div class="hero-banner-holder" style="background-image: url('assets/banner-bg.jpg')">
+		<div class="hero-banner-container">
+			<div class="hero-banner-float">
+				<div class="hero-banner-contents">
+					<div class="hero-banner-title">Less Admin.<span>More Coffee</span></div>
 				</div>
-			</div>
-			<div class="scroll-section">
-				<div class="arrow-down">
-					<i class="fa fa-angle-down" aria-hidden="true"></i>
+				<div class="hero-banner-form">
+					<div class="registration-form">
+						<div class="registration-form-title">Create your free account now!</div>
+						<form action="" method="POST">
+							<div class="form-cols">
+								<div class="form-field">
+									<input type="text" name="firstname" placeholder="First Name" required>
+								</div>
+								<div class="form-field">
+									<input type="text" name="lastname" placeholder="Last Name" required>
+								</div>
+							</div>
+
+							<div class="form-cols">
+								<div class="form-field">
+									<input type="text" name="businessname" placeholder="Business Name" required>
+								</div>
+								<div class="form-field">
+									<input type="email" name="emailaddress" placeholder="Email Address" required>
+								</div>
+							</div>
+
+							<div class="form-cols">
+								<div class="form-field">
+									<input type="password" name="password" placeholder="Password" required>
+								</div>
+								<div class="form-field">
+									<input type="password" name="repeatpassword" placeholder="Repeat Password" required>
+								</div>
+							</div>
+
+							<div class="form-submit-field">
+								<input type="submit" name="submit" value="Register Account">
+							</div>
+
+							<div class="forgot-password">
+								<a href="">Forgot Password?</a>
+								<a href="">Already have an account? Login!</a>
+							</div>
+
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+		<div class="hero-banner-logo-snippets">
+			<div class="banner-badges">
+				<img src="assets/ag-otto-sm.png" alt="Auto Guro" title="Auto Guro">
+			</div>
+			<div class="banner-badges-snippets">
+				<div class="banner-badges-content">Australia's #1 booking site<span>for car services & repairs</span></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-transaction-step">
+	
+	<div class="transaction-step-holder">
+		<div class="transaction-step-container">
+
+			<div class="steps">
+				<div class="step-design">
+					<div class="step-title">Setup Trial</div>
+				</div>
+			</div>
+
+			<div class="steps second-step">
+				<div class="step-design">
+					<div class="step-title">Choose Your Plan</div>
+				</div>
+			</div>
+
+			<div class="steps third-step">
+				<div class="step-design">
+					<div class="step-title">Set Up Inventory</div>
+				</div>
+			</div>
+
+			<div class="steps fourth-step">
+				<div class="step-design">
+					<div class="step-title">Set Up Customers</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</section>
+
+<section class="site-section section-integration">
+
+	<div class="section-integration-holder">
+		<div class="section-integration-container">
+			<div class="section-title">Bsimple <span>Integrations</span></div>
+			<div class="section-integration-list">
+
+				<div class="section-integration-item">
+					<img src="assets/integration-icon.jpg" alt="Connect Accounting with Xero" title="Connect Accounting with Xero">
+					<div class="integration-title">Connect Accounting with Xero</div>
+				</div>
+
+				<div class="section-integration-item">
+					<img src="assets/integration-icon.jpg" alt="Connect Accounting with Xero" title="Connect Accounting with Xero">
+					<div class="integration-title">Connect Accounting with Xero</div>
+				</div>
+
+				<div class="section-integration-item">
+					<img src="assets/integration-icon.jpg" alt="Connect Accounting with Xero" title="Connect Accounting with Xero">
+					<div class="integration-title">Connect Accounting with Xero</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="site-section section-pricing">
+
+	<div class="section-pricing-holder">
+		<div class="section-pricing-container">
+			<div class="section-title">Bsimple <span>Pricing</span></div>
+			<div class="section-title-snippets">We've created pricing points to suit everyone </div>
+
+			<div class="section-pricing-list">
+
+				<div class="section-pricing-item">
+					<img src="assets/sml.jpg" alt="SML" title="SML">
+					<div class="pricing-title">SML</div>
+					<div class="pricing-desc">For a small or growing business</div>
+					<hr>
+					<div class="pricing-details">$180</div>
+					<div class="pricing-desc">per month</div>
+					<div class="pricing-btn btn-style"><a href="#" class="RegisterTop">SIGNUP</a></div>
+					<hr>
+					<div class="pricing-information">
+						<div class="pricing-user"><i class="fas fa-user-plus"></i> 2 Users</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Full Feature Sets </div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Xero/MYOB/Shopify</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> SMS and E-mail Services*</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Inc. 1000 orders per month</div>
+					</div>
+				</div>
+
+				<div class="section-pricing-item">
+					<img src="assets/med.jpg" alt="MED" title="MED">
+					<div class="pricing-title">MED</div>
+					<div class="pricing-desc">For established businesses</div>
+					<hr>
+					<div class="pricing-details">$250</div>
+					<div class="pricing-desc">per month</div>
+					<div class="pricing-btn btn-style"><a href="#" class="RegisterTop">SIGNUP</a></div>
+					<hr>
+					<div class="pricing-information">
+						<div class="pricing-user"><i class="fas fa-user-plus"></i> 3 Users</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> All Features from SML </div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Custom Features</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Custom Integrations</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Inc. 2000 orders per month</div>
+					</div>
+				</div>
+
+				<div class="section-pricing-item">
+					<img src="assets/xl.jpg" alt="XL" title="XL">
+					<div class="pricing-title">XL</div>
+					<div class="pricing-desc">For a slarge business or enterprise</div>
+					<hr>
+					<div class="pricing-details">$399</div>
+					<div class="pricing-desc">per month</div>
+					<div class="pricing-btn btn-style"><a href="#" class="RegisterTop">SIGNUP</a></div>
+					<hr>
+					<div class="pricing-information">
+						<div class="pricing-user"><i class="fas fa-user-plus"></i> 5+ Users</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Extra Users $75pm + 500 orders  </div>
+						<div class="pricing-check"><i class="fas fa-check"></i> All Featured from MED</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Inc. 3000 orders per month</div>
+						<div class="pricing-check"><i class="fas fa-check"></i> Extra orders $0.04 each</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</section>
+
+
+<section class="site-section section-call-to-action">
+
+	<div class="section-call-to-action-holder">
+		<div class="section-call-to-action-container">
+			<div class="section-title">We're Here To <span>Help</span></div>
+			<div class="section-call-to-action-snippets">Please Email Us On...</div>
+		</div>
+	</div>
+
+</section>
+
 </body>
 </html>
