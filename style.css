@@ -121,6 +121,10 @@ header {
     transition: 0.5s ease-in-out;
 }
 
+.header-logo img {
+    max-width: 125px;
+}
+
 .navigation a:hover {
     color: #04c38b;
 }
