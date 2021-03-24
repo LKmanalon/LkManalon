@@ -477,6 +477,10 @@ section.hero-banner {
 	    margin: 0 auto;
 	    margin-bottom: 60px;
 	}
+	
+    .header-logo img {
+	    max-width: 90px;
+	}
 
     .section-pricing-item {
         width: 100%;
@@ -567,6 +571,7 @@ section.hero-banner {
 	    right: 0;
 	    margin: 0 auto;
 	    text-align: center;
+	    top: 10px;
 	}
 
 	.mobile-hamburger span {
