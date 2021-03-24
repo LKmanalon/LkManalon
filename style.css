@@ -144,7 +144,7 @@ section.hero-banner {
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(90vh - 108px);
+    height: calc(90vh - 90px);
 }
 
 .hero-banner-title {
