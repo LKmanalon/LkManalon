@@ -75,6 +75,11 @@ header {
     text-align: right;
 }
 
+.header-logo {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
 .header-login {
     border: 1px solid #21233833;
     border-radius: 5px;
@@ -483,7 +488,7 @@ section.hero-banner {
 }
 
 .pricing-images img {
-   width: 100%;
+    width: 100%;
 }
 
 .section-snippets a {
