@@ -479,6 +479,11 @@ section.hero-banner {
 .pricing-images {
     margin: 0 auto;
     text-align: center;
+    max-width: 800px;
+}
+
+.pricing-images img {
+   width: 100%;
 }
 
 .section-snippets a {
