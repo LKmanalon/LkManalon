@@ -540,6 +540,10 @@ span.transparent-overlay {
 }
 
 @media (max-width: 1023px){
+	
+    span.transparent-overlay {
+           display: none;
+    }
 
     .section-integration-item {
 	    display: block;
