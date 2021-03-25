@@ -144,7 +144,7 @@ section.hero-banner {
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(90vh - 90px);
+    height: calc(90vh - 108px);
 }
 
 .hero-banner-title {
@@ -435,15 +435,32 @@ section.hero-banner {
     width: calc(100% / 4 );
     float: left;
     text-align: center;
-    background-color: #000;
+    background-color: #494949;
     color: #fff;
     padding: 40px 15px;
     position: relative;
 }
 
+.steps:first-child {
+    background-color: #d73a31;
+}
+
+.steps:first-child:after{
+    border-left-color: #d73a31;
+}
+
 .step-title {
     font-size: 18px;
     font-weight: 600;
+}
+
+span.transparent-overlay {
+    background-color: #494949;
+    height: 100%;
+    width: 55px;
+    position: absolute;
+    top: 0;
+    right: 0px;
 }
 
 
@@ -456,7 +473,7 @@ section.hero-banner {
     top: 0;
     right: -45px;
     border: solid transparent;
-    border-left-color: #000;
+    border-left-color: #494949;
     border-width: 50px;
 }
 .steps:before {
